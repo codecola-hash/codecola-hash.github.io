@@ -1823,7 +1823,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #fe60bd;
+  background: #0fff20;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3001,6 +3001,12 @@ pre .javascript .function {
   border-bottom: none;
   border-bottom: 1px solid #fc6423;
 }
+.highlight {
+  border-radius: 5px;
+}
+pre {
+  border-radius: 5px;
+}
 ::selection {
   background: #00c4b6;
   color: #f7f7f7;
@@ -3024,9 +3030,19 @@ pre .javascript .function {
   color: #fff;
 }
 .btn {
+  display: inline-block;
+  padding: 0 20px;
+  font-size: 14px;
   color: #49b1f5;
   background: #fff;
   border: 2px solid #49b1f5;
+  text-decoration: none;
+  border-radius: 2px;
+  transition-property: background-color;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+  line-height: 2;
 }
 .btn:hover {
   border-color: #49b1f5;
